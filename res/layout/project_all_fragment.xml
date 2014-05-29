@@ -1,0 +1,38 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/all_field"
+    android:orientation="vertical">
+
+ 	<fragment class="com.google.android.gms.maps.MapFragment"
+		android:id="@+id/support_map_fragment"
+		android:enabled="true"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
+		android:layout_margin="@dimen/favourite_margin"/> 
+		
+ 	<TextView 
+ 	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        
+        android:layout_margin="@dimen/favourite_margin"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:textStyle="italic"
+        android:textSize="@dimen/text"
+        android:text="Didn't find a project for you? Create new one here!"
+        android:textColor="@color/holo_grey"/>
+		
+    <Button
+        android:id="@+id/create_project_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Create a project!"
+        android:onClick="createProject" 
+        android:background="@drawable/rounded"
+        android:layout_marginBottom="@dimen/favourite_margin"/>
+    
+
+</LinearLayout>

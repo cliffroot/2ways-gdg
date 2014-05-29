@@ -1,0 +1,75 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <!-- <View
+         android:id="@+id/divider0"
+	     android:layout_width="match_parent"
+	     android:layout_marginTop="0dp"
+	     android:layout_marginBottom="6dp"
+	     android:layout_height="3dp"
+	     android:background="#000000"/>-->
+    
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical">
+        
+       <LinearLayout
+           android:id="@+id/image_field"
+           android:layout_width="wrap_content"
+           android:layout_height="48dip"
+           android:layout_alignParentLeft="true"
+           android:layout_marginBottom="8dip"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="12dp"
+           android:layout_marginTop="8dip"
+           android:gravity="center_vertical"
+           android:orientation="horizontal">
+        
+	       <ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="chew"
+			    android:id="@+id/image1"/>    	
+       </LinearLayout>
+       
+		<TextView 
+		    android:id="@+id/text1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:textSize="@dimen/text"
+		    android:textColor="#000"
+		    android:layout_toRightOf="@id/image_field"
+		    android:layout_marginLeft="12dp"
+		    android:layout_marginRight="56dp"
+		    android:gravity="center"
+		    android:text="olo"/>
+ 
+	</RelativeLayout>
+	
+	 <View
+	     android:id="@+id/divider1"
+	     android:layout_width="match_parent"
+	     android:layout_height="1dp"
+	     android:background="@color/divider_color"/>
+ 
+ </LinearLayout>

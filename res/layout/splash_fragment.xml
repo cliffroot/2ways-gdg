@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:weightSum="10"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:padding="5dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/motivational"
+    		android:textColor="#000000"
+    		android:textSize="16sp"
+    		android:background="@drawable/rounded_corner_shape"
+    		android:textStyle="italic"
+    		android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    		/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:gravity="right|bottom">
+	    
+ 	    <com.google.android.gms.common.SignInButton
+	        android:id="@+id/signIn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"/> 
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:gravity="right|bottom">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            android:contentDescription="logo"
+            android:id="@+id/logo"
+            />
+        
+        
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+  <resources >  
+    <item name="photo_file_tag" type="id">55</item>
+    <item name="photo_uri_tag" type="id">66</item>
+    </resources>

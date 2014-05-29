@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gps_timeout_msec">10000</integer>
+</resources>

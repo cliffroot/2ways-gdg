@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_items">
+        <item>Profile</item>
+        <item>My Projects</item>
+        <item>Find Project</item>
+        <item>Settings</item>
+    </string-array> 
+    
+    <string-array name="project_categs">
+        <item>@string/categ_1</item>
+        <item>@string/categ_2</item>
+        <item>@string/categ_3</item>
+        <item>@string/categ_4</item>
+        <item>@string/categ_5</item>
+    </string-array>  
+</resources>

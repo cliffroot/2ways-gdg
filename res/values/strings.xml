@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2ways</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="create">Create</string>
+        
+    <!-- drawer -->
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="item_settings">Settings</string>
+    
+    <!-- profile -->
+    <string name="user_photo">User Photo</string>
+    
+    <!-- categories -->
+    <string name="categ_1">Public service</string>
+    <string name="categ_2">Сlean-up event</string>
+    <string name="categ_3">Charity</string>
+    <string name="categ_4">Animals</string>
+    <string name="categ_5">Other</string>    
+    
+    <!-- create project -->
+    <string name="create_project_project_name_label">Project name</string>
+    <string name="create_project_project_description_label">Description</string>
+    <string name="project_description_label">Description</string>
+    <string name="add_photo">Add photo!</string>
+    <string name="project_photo">Project photo</string>
+    
+    <!-- project details -->
+    <string name="comments_section_headline">COMMENTS</string>
+    <string name="project_description_headline">DESCRIPTION</string>
+    <string name="expand_icon">Expand</string>
+    <string name="collapse_icon">Collapse</string>
+    <string name="add_message_action">Add message</string>
+    <string name="edit_project_action">Edit project</string>
+    
+    
+    <string name="wait">Wait please&#8230;</string>
+    
+    <string name="date">Date</string>
+    
+    
+    
+    <string name="open_helper_classname">SqliteAndroidDatabaseType</string>
+    
+    <string name="error">Error</string>
+    
+    <string name="server_error">Check your Internet connection</string>
+     
+    <string name="category_picker_hint">Choose a category&#8230;</string>
+    
+   
+    <string name="loading">Loading data&#8230;</string>
+    <string name="ordered">ordered</string>
+    <string name="scroll_to_bottom">Scroll to bottom</string>
+    <string name="scroll_to_top">Scroll to top</string>
+    <string name="loading_mode">Loading Mode</string>
+	<string name="stop_position">Stop Position</string>
+	<string name="start_of_list">Start of List</string>
+	<string name="end_of_list">End of List</string>
+	<string name="remain_unchanged">Unchanged</string>
+
+</resources>

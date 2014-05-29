@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/favourite_margin" >
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_headline"
+        android:textStyle="bold"
+        android:id="@+id/project_title"
+        android:text="title"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_headline_secondary"
+        android:textStyle="bold"
+        android:id="@+id/project_category"
+        android:text="category"/>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/project_photo"
+        android:layout_width="@dimen/photo_profile"
+        android:layout_height="@dimen/photo_profile"
+        android:layout_margin="@dimen/favourite_margin"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"/>    
+    
+    <RelativeLayout
+		android:id="@+id/descLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >		
+        <TextView
+			android:id="@+id/textDescr"		 
+        	android:layout_marginTop="30dp"
+			android:text="@string/project_description_headline"
+			style="@style/subheadline"/>						
+		<ImageView
+			android:id="@+id/expandIcon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/textDescr"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/ic_action_expand" 	
+			android:contentDescription="@string/expand_icon"/>
+	</RelativeLayout>                 			
+	<View
+		android:id="@+id/divider"
+		style="@style/divider"/>
+			
+	<TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text"
+        android:id="@+id/project_description"
+        android:text="project_description"/> 
+            
+	<TextView
+		android:id="@+id/comments_lable"
+		android:text="@string/comments_section_headline"
+		style="@style/subheadline"/>   
+		    
+	<View
+		android:id="@+id/divider2"
+		style="@style/divider"/>
+    
+    <com.paradiseoctopus.happysquirrel.helpers.LinearLayoutList
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/project_comments"
+        />
+
+    <TextView
+        android:id="@+id/sum_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сумма"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Fund"/>
+</LinearLayout>
+</ScrollView>
